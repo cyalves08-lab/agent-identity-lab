@@ -1,6 +1,6 @@
 # RevCentric Marketing — Company Overview
 
-> Single source of truth for who we are. GRIOT reads this first when answering
+> Single source of truth for who we are. MAURICE reads this first when answering
 > on the company's behalf.
 
 ## What we do

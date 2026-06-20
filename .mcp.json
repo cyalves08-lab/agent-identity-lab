@@ -1,5 +1,5 @@
 {
-  "_comment": "Starter MCP config for GRIOT. Fill in the placeholders, then run `claude mcp list` to verify. Several of these (Gmail, Drive, Canva, Windsor.ai) are also available as one-click connectors in the Claude apps — see docs/GRIOT-SETUP.md for which path to use for each. Scheduling runs on GoHighLevel via the windsor connector (connect GHL at https://onboard.windsor.ai?datasource=gohighlevel). Entries you haven't set up yet can stay as-is; Claude Code will simply skip servers it can't reach.",
+  "_comment": "Starter MCP config for MAURICE. Fill in the placeholders, then run `claude mcp list` to verify. Several of these (Gmail, Drive, Canva, Windsor.ai) are also available as one-click connectors in the Claude apps — see docs/MAURICE-SETUP.md for which path to use for each. Scheduling runs on GoHighLevel via the windsor connector (connect GHL at https://onboard.windsor.ai?datasource=gohighlevel). Entries you haven't set up yet can stay as-is; Claude Code will simply skip servers it can't reach.",
 
   "mcpServers": {
     "windsor": {

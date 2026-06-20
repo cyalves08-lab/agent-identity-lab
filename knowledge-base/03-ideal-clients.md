@@ -1,6 +1,6 @@
 # Ideal Clients
 
-> Who we're for. GRIOT uses this to qualify leads and tailor messaging.
+> Who we're for. MAURICE uses this to qualify leads and tailor messaging.
 
 ## Primary audience
 
@@ -22,7 +22,7 @@ Licensed insurance agents and financial advisors who:
 | Serve high-net-worth | Luxury Wealth Architect | Exclusivity, craft |
 | Help executives in transition | Corporate Transition Expert | Clarity in change |
 
-## Qualifying questions GRIOT can ask a lead
+## Qualifying questions MAURICE can ask a lead
 
 1. What do you sell most right now? (Term/Final Expense, IUL/Whole Life,
    Retirement/Annuities, Mortgage Protection, Business Solutions)

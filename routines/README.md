@@ -1,6 +1,6 @@
 # Routines
 
-Recurring work GRIOT runs on a schedule, set up with the `/schedule` command in
+Recurring work MAURICE runs on a schedule, set up with the `/schedule` command in
 Claude Code. Each routine is a markdown file describing exactly what to do.
 
 | Routine | File | Suggested cadence |

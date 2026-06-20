@@ -1,7 +1,7 @@
-# Building Your Own GRIOT — Setup & Status
+# Building Your Own MAURICE — Setup & Status
 
-This repo is configured as **GRIOT**, RevCentric Marketing's Claude Code
-operator. The idea (straight from the "Build Your Own Griot" guide): it's mostly
+This repo is configured as **MAURICE**, RevCentric Marketing's Claude Code
+operator. The idea (straight from the "Build Your Own Maurice" guide): it's mostly
 **Claude Code plugged into the apps you already use, one connector at a time**. An
 MCP is just a direct line between Claude and one app.
 
@@ -12,7 +12,7 @@ what still needs your key.
 
 | What you're building | Tool | Status in this repo |
 |----------------------|------|---------------------|
-| The GRIOT dashboard | Drop a screenshot into Claude Code | ✅ Your `RCM_AgentIDLab_AI HTML.html` dashboard is the source; brand pulled into the KB |
+| The MAURICE dashboard | Drop a screenshot into Claude Code | ✅ Your `RCM_AgentIDLab_AI HTML.html` dashboard is the source; brand pulled into the KB |
 | Talk to it + voice | `/voice` (talk to it) + ElevenLabs (talk back) | ⚙️ Needs your ElevenLabs key — see below |
 | Let it use your browser | Claude for Chrome / Playwright MCP | ⚙️ Optional — add when needed |
 | Track revenue | RevenueCat MCP | ⚙️ Needs your RevenueCat key |
@@ -30,13 +30,13 @@ Legend: ✅ built & ready to use · ⚙️ scaffolded, needs your credential or 
 ## What's in the repo
 
 ```
-CLAUDE.md                 GRIOT's identity + operating rules (read on every session)
+CLAUDE.md                 MAURICE's identity + operating rules (read on every session)
 .mcp.json                 Connector config (fill in placeholders)
 .claude/agents/           The subagent team
 knowledge-base/           Business knowledge — answers customers in your voice
 routines/                 Scheduled work (morning briefing)
 clients/                  Saved BrandEdge™ reports per client
-docs/GRIOT-SETUP.md      This file
+docs/MAURICE-SETUP.md      This file
 RCM_AgentIDLab_AI HTML.html   The original Agent Identity Lab™ dashboard
 ```
 
@@ -51,7 +51,7 @@ You have two paths for most apps:
   reach, so partial setup is fine.
 
 ### Already available / wired
-- **Gmail** → `inbox-manager`. Authorize Gmail, then ask GRIOT to triage your inbox.
+- **Gmail** → `inbox-manager`. Authorize Gmail, then ask MAURICE to triage your inbox.
 - **Windsor.ai** (Meta Ads + Instagram) → `ads-analyst`. Set `WINDSOR_API_KEY`.
   Connector slugs: `facebook` (ads), `instagram_public` (IG organic).
 - **Google Drive** → `scheduler` (meeting docs). Authorize for document lookups.
@@ -62,19 +62,19 @@ The `scheduler` agent and morning briefing read your schedule from **GoHighLevel
 through Windsor.ai (slug `gohighlevel`).
 
 1. Connect GHL once at **https://onboard.windsor.ai?datasource=gohighlevel** (this
-   links your GHL account to the same Windsor key GRIOT already uses).
-2. After that, ask GRIOT *"what's on my schedule today?"* or run the morning briefing.
+   links your GHL account to the same Windsor key MAURICE already uses).
+2. After that, ask MAURICE *"what's on my schedule today?"* or run the morning briefing.
 
-**Limitation:** Windsor's GHL connector is **read-only** — GRIOT can read
+**Limitation:** Windsor's GHL connector is **read-only** — MAURICE can read
 appointments, contacts, and pipeline, but **cannot book or move appointments**.
-It will recommend the change and you make it in GHL. (To let GRIOT write to GHL
+It will recommend the change and you make it in GHL. (To let MAURICE write to GHL
 directly, add a GoHighLevel API/MCP connector later — noted under "needs your key".)
 
 ### Needs your key (do these when ready)
-- **Voice** — add `/voice` for talking to GRIOT; add an **ElevenLabs** MCP/API
+- **Voice** — add `/voice` for talking to MAURICE; add an **ElevenLabs** MCP/API
   key for it to talk back. Pick a **deep male voice with a British or African
-  accent** to match the GRIOT persona (`knowledge-base/05-griot-persona.md`):
-  the sharp, worldly, dry-witted confidant — the "Black GRIOT." This also powers
+  accent** to match the MAURICE persona (`knowledge-base/05-maurice-persona.md`):
+  the sharp, worldly, dry-witted confidant — the "Black MAURICE." This also powers
   the **spoken morning briefing** — the daily routine writes the briefing in that
   persona, narrates it to an MP3, and attaches it to the email draft, so it's read
   to you when you log in. Until a voice key is added, the routine still delivers
@@ -86,9 +86,9 @@ directly, add a GoHighLevel API/MCP connector later — noted under "needs your 
 - **Buffer or Postiz** — add one to let `content-studio` actually publish, not
   just draft.
 - **Browser** — add Claude for Chrome (simple) or a Playwright MCP (advanced) if
-  you want GRIOT to drive a browser.
+  you want MAURICE to drive a browser.
 
-## Using GRIOT
+## Using MAURICE
 
 Open Claude Code in this repo and just talk to it. Examples:
 
@@ -109,5 +109,5 @@ Schedule the briefing so it's ready before you wake up:
 ## Security notes
 - Never commit real keys. `.gitignore` excludes `.env`. Put secrets in env vars,
   not in `.mcp.json`.
-- GRIOT drafts and reports freely but **confirms before anything outward-facing**
+- MAURICE drafts and reports freely but **confirms before anything outward-facing**
   — sending mail, publishing posts, changing ad budgets, or editing calendars.
