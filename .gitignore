@@ -1,0 +1,16 @@
+# Secrets — never commit
+.env
+.env.*
+*.key
+credentials.json
+google-oauth*.json
+
+# Local Claude Code state
+.claude/settings.local.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
