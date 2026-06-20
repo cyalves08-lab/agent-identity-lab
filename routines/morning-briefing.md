@@ -19,9 +19,10 @@ the matching subagent.
    - Triage overnight mail. List anything needing a reply today.
    - Note any new qualified leads (financial pros asking about BrandEdge™).
 
-2. **Calendar** (`scheduler`)
-   - Today's schedule, conflicts, gaps.
-   - One-line prep per meeting, with the relevant Drive doc if there is one.
+2. **Schedule** (`scheduler`)
+   - Today's GoHighLevel appointments, conflicts, gaps.
+   - One-line prep per appointment, with the relevant Drive doc if there is one.
+   - Read-only: note any booking changes to make in GHL; don't claim to make them.
 
 3. **Ads & Instagram** (`ads-analyst`)
    - Yesterday's Meta Ads spend + results vs. the prior day.
@@ -41,7 +42,7 @@ PRIORITY
   • The single most important thing to handle today.
 
 INBOX        — {n} need replies · {m} new leads
-CALENDAR     — {n} meetings · {conflicts}
+SCHEDULE     — {n} appointments (GHL) · {conflicts}
 ADS / IG     — spend {x} · results {y} · {flag}
 CONTENT      — posting today: {…} · idea for tomorrow: {…}
 

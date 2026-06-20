@@ -19,6 +19,7 @@ what still needs your key.
 | Auto-post content | Buffer / Postiz MCP | ⚙️ `content-studio` drafts + designs; connect Buffer/Postiz to publish |
 | Instagram analytics | Meta dev app + token | ✅ Via Windsor.ai (`instagram_public`) — `ads-analyst` |
 | Read + run ads | Meta Ads connector | ✅ Via Windsor.ai (`facebook`) — `ads-analyst` |
+| Scheduling / calendar | GoHighLevel (via Windsor.ai) | ⚙️ Read-only — connect GHL once at Windsor (see below) — `scheduler` |
 | Read your inbox | Gmail MCP / Google Workspace CLI | ✅ Gmail wired — `inbox-manager` |
 | Answer customers in your voice | Business knowledge base in markdown | ✅ `knowledge-base/` + `knowledge-keeper` |
 | A team of specialized agents | Subagents | ✅ Six agents in `.claude/agents/` |
@@ -53,8 +54,21 @@ You have two paths for most apps:
 - **Gmail** → `inbox-manager`. Authorize Gmail, then ask JARVIS to triage your inbox.
 - **Windsor.ai** (Meta Ads + Instagram) → `ads-analyst`. Set `WINDSOR_API_KEY`.
   Connector slugs: `facebook` (ads), `instagram_public` (IG organic).
-- **Google Calendar + Drive** → `scheduler`. Authorize, then run the morning briefing.
+- **Google Drive** → `scheduler` (meeting docs). Authorize for document lookups.
 - **Canva** → `content-studio`. Authorize for design generation.
+
+### Scheduling — GoHighLevel (read-only)
+The `scheduler` agent and morning briefing read your schedule from **GoHighLevel**
+through Windsor.ai (slug `gohighlevel`).
+
+1. Connect GHL once at **https://onboard.windsor.ai?datasource=gohighlevel** (this
+   links your GHL account to the same Windsor key JARVIS already uses).
+2. After that, ask JARVIS *"what's on my schedule today?"* or run the morning briefing.
+
+**Limitation:** Windsor's GHL connector is **read-only** — JARVIS can read
+appointments, contacts, and pipeline, but **cannot book or move appointments**.
+It will recommend the change and you make it in GHL. (To let JARVIS write to GHL
+directly, add a GoHighLevel API/MCP connector later — noted under "needs your key".)
 
 ### Needs your key (do these when ready)
 - **Voice** — add `/voice` for talking to JARVIS; add an **ElevenLabs** MCP/API

@@ -1,5 +1,5 @@
 {
-  "_comment": "Starter MCP config for JARVIS. Fill in the placeholders, then run `claude mcp list` to verify. Several of these (Gmail, Calendar, Drive, Canva, Windsor.ai) are also available as one-click connectors in the Claude apps — see docs/JARVIS-SETUP.md for which path to use for each. Entries you haven't set up yet can stay as-is; Claude Code will simply skip servers it can't reach.",
+  "_comment": "Starter MCP config for JARVIS. Fill in the placeholders, then run `claude mcp list` to verify. Several of these (Gmail, Drive, Canva, Windsor.ai) are also available as one-click connectors in the Claude apps — see docs/JARVIS-SETUP.md for which path to use for each. Scheduling runs on GoHighLevel via the windsor connector (connect GHL at https://onboard.windsor.ai?datasource=gohighlevel). Entries you haven't set up yet can stay as-is; Claude Code will simply skip servers it can't reach.",
 
   "mcpServers": {
     "windsor": {
@@ -18,14 +18,6 @@
     "gmail": {
       "command": "npx",
       "args": ["-y", "@gongrzhe/server-gmail-autoauth-mcp"]
-    },
-
-    "google-calendar": {
-      "command": "npx",
-      "args": ["-y", "@cocal/google-calendar-mcp"],
-      "env": {
-        "GOOGLE_OAUTH_CREDENTIALS": "${GOOGLE_OAUTH_CREDENTIALS_PATH}"
-      }
     }
   }
 }

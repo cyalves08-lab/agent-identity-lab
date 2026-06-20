@@ -53,16 +53,16 @@ task fits — they keep the conclusion, not the file dumps, out of your context.
 | `inbox-manager` | Triage Gmail, summarize threads, draft replies in-voice |
 | `ads-analyst` | Read Meta Ads + Instagram performance, flag actions |
 | `content-studio` | Draft posts, generate Canva designs, prep content for scheduling |
-| `scheduler` | Calendar, meeting prep, run the morning routine |
+| `scheduler` | GoHighLevel schedule, appointment prep, run the morning routine |
 | `brandedge-strategist` | Run the client-facing BrandEdge™ brand-architecture process |
 | `knowledge-keeper` | Answer customers in the brand voice; keep the KB current |
 
 ## Connectors
 
 Connector status and setup live in `docs/JARVIS-SETUP.md`. The wired set today:
-Gmail (inbox), Windsor.ai (Meta Ads + Instagram analytics), Google Calendar &
-Drive, Canva (design). Voice, RevenueCat, and Buffer/Postiz are documented there
-as "needs your key."
+Gmail (inbox), Windsor.ai (Meta Ads + Instagram analytics, plus GoHighLevel
+scheduling — read-only), Google Drive (docs), Canva (design). Voice, RevenueCat,
+and Buffer/Postiz are documented there as "needs your key."
 
 ## Routines
 

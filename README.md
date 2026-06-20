@@ -21,7 +21,7 @@ business already uses, one connector at a time. It runs marketing operations
 | Path | What it is |
 |------|-----------|
 | `CLAUDE.md` | JARVIS's identity and operating rules |
-| `.claude/agents/` | The subagent team (inbox, ads, content, scheduler, BrandEdge, KB) |
+| `.claude/agents/` | The subagent team (inbox, ads, content, GHL scheduler, BrandEdge, KB) |
 | `knowledge-base/` | Business knowledge — lets JARVIS answer customers in your voice |
 | `routines/` | Scheduled work, e.g. the morning briefing |
 | `clients/` | Saved BrandEdge™ reports |
@@ -31,9 +31,9 @@ business already uses, one connector at a time. It runs marketing operations
 
 ## Capabilities at a glance
 
-Inbox triage · Meta Ads + Instagram analytics · calendar & meeting prep ·
-on-brand content + Canva design · a markdown knowledge base · a team of subagents ·
-scheduled routines · the client-facing BrandEdge™ interview.
+Inbox triage · Meta Ads + Instagram analytics · GoHighLevel schedule + appointment
+prep · on-brand content + Canva design · a markdown knowledge base · a team of
+subagents · scheduled routines · the client-facing BrandEdge™ interview.
 
 See **[docs/JARVIS-SETUP.md](docs/JARVIS-SETUP.md)** for setup and what still needs
 your keys (voice, RevenueCat, Buffer/Postiz, browser).
