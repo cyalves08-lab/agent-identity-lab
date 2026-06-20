@@ -63,12 +63,15 @@ owner logs in:
    delivering to the owner's own address is not an outward-facing action.)
 
 2. **Voice narration ("read it to me").** Generate an audio (MP3) reading of the
-   briefing using the configured voice connector, in the JARVIS voice. Write a
-   tight spoken version first — lead with the PRIORITY line, then a sentence each
-   for inbox, schedule, ads/IG, and content. Keep it under ~60 seconds. Attach or
-   link the audio file in the email draft and in the run output so the owner can
-   press play.
+   briefing in the **JARVIS persona** (`knowledge-base/05-jarvis-persona.md`) — the
+   deep-voiced, dry-witted, candid confidant. Write the spoken script in that
+   character first: greet the owner, lead with the PRIORITY, then a crisp line each
+   for inbox, schedule, ads/IG, and content. He's honest — if something's weak or a
+   number's bad, he says so with a better move, not just good news. One sharp line
+   of wit is plenty. Keep it under ~60 seconds. Attach or link the audio in the
+   email draft and the run output so the owner can press play.
 
-   Voice connector: ElevenLabs (preferred — set a British "JARVIS" voice) once a
-   key is added; otherwise use whatever TTS connector is enabled on the routine.
-   See `docs/JARVIS-SETUP.md` → "Voice".
+   Voice connector: ElevenLabs (preferred — pick a deep male voice with a British
+   or African accent to match the persona) once a key is added; otherwise use
+   whatever TTS connector is enabled on the routine. See `docs/JARVIS-SETUP.md` →
+   "Voice".
