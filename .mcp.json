@@ -1,0 +1,23 @@
+{
+  "_comment": "Starter MCP config for JARVIS. Fill in the placeholders, then run `claude mcp list` to verify. Several of these (Gmail, Drive, Canva, Windsor.ai) are also available as one-click connectors in the Claude apps — see docs/JARVIS-SETUP.md for which path to use for each. Scheduling runs on GoHighLevel via the windsor connector (connect GHL at https://onboard.windsor.ai?datasource=gohighlevel). Entries you haven't set up yet can stay as-is; Claude Code will simply skip servers it can't reach.",
+
+  "mcpServers": {
+    "windsor": {
+      "type": "http",
+      "url": "https://mcp.windsor.ai/mcp",
+      "headers": {
+        "Authorization": "Bearer ${WINDSOR_API_KEY}"
+      }
+    },
+
+    "canva": {
+      "type": "http",
+      "url": "https://mcp.canva.com/mcp"
+    },
+
+    "gmail": {
+      "command": "npx",
+      "args": ["-y", "@gongrzhe/server-gmail-autoauth-mcp"]
+    }
+  }
+}
