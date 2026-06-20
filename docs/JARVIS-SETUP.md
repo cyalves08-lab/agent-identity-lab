@@ -72,7 +72,13 @@ directly, add a GoHighLevel API/MCP connector later — noted under "needs your 
 
 ### Needs your key (do these when ready)
 - **Voice** — add `/voice` for talking to JARVIS; add an **ElevenLabs** MCP/API
-  key for it to talk back in a chosen voice.
+  key for it to talk back in a chosen voice (set a British "JARVIS" voice). This
+  also powers the **spoken morning briefing** — the daily routine narrates the
+  briefing to an MP3 and attaches it to the email draft, so it's read to you when
+  you log in. Until a voice key is added, the routine still delivers the written
+  briefing; add the key (and allow the voice provider's domain on the routine's
+  environment) to turn on the audio. A no-key option: enable a TTS connector
+  already on your account and the routine will use it instead.
 - **RevenueCat** — add the RevenueCat MCP + key to track revenue.
 - **Buffer or Postiz** — add one to let `content-studio` actually publish, not
   just draft.

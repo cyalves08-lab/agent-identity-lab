@@ -51,3 +51,24 @@ DRAFTS READY — {list of drafts created for review}
 
 Keep it to one screen. Lead with PRIORITY. Nothing gets sent, posted, or changed
 without the owner — this routine reports and prepares, it doesn't act outward.
+
+## Delivery — have it waiting for the owner
+
+After the briefing text is ready, deliver it two ways so it's there the moment the
+owner logs in:
+
+1. **Email draft to the owner.** Create a Gmail draft addressed to
+   `cyalves08@gmail.com`, subject `☀️ Morning Briefing — {date}`, body = the full
+   briefing. (The Gmail connector drafts rather than sends, so it lands in Drafts —
+   delivering to the owner's own address is not an outward-facing action.)
+
+2. **Voice narration ("read it to me").** Generate an audio (MP3) reading of the
+   briefing using the configured voice connector, in the JARVIS voice. Write a
+   tight spoken version first — lead with the PRIORITY line, then a sentence each
+   for inbox, schedule, ads/IG, and content. Keep it under ~60 seconds. Attach or
+   link the audio file in the email draft and in the run output so the owner can
+   press play.
+
+   Voice connector: ElevenLabs (preferred — set a British "JARVIS" voice) once a
+   key is added; otherwise use whatever TTS connector is enabled on the routine.
+   See `docs/JARVIS-SETUP.md` → "Voice".
