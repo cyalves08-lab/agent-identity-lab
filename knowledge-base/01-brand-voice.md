@@ -1,4 +1,4 @@
-# Brand Voice — How RevCentric (and JARVIS) Sounds
+# Brand Voice — How RevCentric (and GRIOT) Sounds
 
 > Use this any time you write *as* RevCentric: client replies, emails, captions,
 > reports. This voice is inherited directly from the Agent Identity Lab™ system.

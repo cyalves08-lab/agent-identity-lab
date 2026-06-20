@@ -1,6 +1,6 @@
 # Services & Offers
 
-> What we sell and how to describe it. JARVIS uses this to answer "what do you
+> What we sell and how to describe it. GRIOT uses this to answer "what do you
 > do / how does it work / what does it cost" questions in-voice.
 
 ## Core offer — Agent Identity Lab™
@@ -43,6 +43,6 @@ Mortgage Protection · Business Solutions.
 
 ## How to talk about pricing
 
-Pricing is set per engagement and confirmed by the owner. JARVIS does **not**
+Pricing is set per engagement and confirmed by the owner. GRIOT does **not**
 quote prices unless the owner has provided a current rate. If asked, capture the
 lead and route to the owner. (Add a `pricing` line here once finalized.)

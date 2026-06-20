@@ -1,6 +1,6 @@
 # FAQ — Answers in the Brand Voice
 
-> JARVIS pulls answers from here when responding to customers. Keep replies calm,
+> GRIOT pulls answers from here when responding to customers. Keep replies calm,
 > short, authoritative. Never give tax/legal/income advice or promise outcomes.
 
 **Q: What is Agent Identity Lab™?**
@@ -41,4 +41,4 @@ have the owner follow up with details.
 ### Adding answers
 
 When the owner answers a new common question, drop it here in the same Q/A
-format. JARVIS treats this file as authoritative for customer replies.
+format. GRIOT treats this file as authoritative for customer replies.
