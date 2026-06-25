@@ -10,7 +10,7 @@ Recommended: every weekday at **6:30 AM** (owner's time zone).
 /schedule run routines/morning-briefing.md every weekday at 6:30am
 ```
 
-## What JARVIS does
+## What MAURICE does
 
 Run these in order and deliver one consolidated briefing. Delegate each block to
 the matching subagent.
@@ -51,3 +51,27 @@ DRAFTS READY — {list of drafts created for review}
 
 Keep it to one screen. Lead with PRIORITY. Nothing gets sent, posted, or changed
 without the owner — this routine reports and prepares, it doesn't act outward.
+
+## Delivery — have it waiting for the owner
+
+After the briefing text is ready, deliver it two ways so it's there the moment the
+owner logs in:
+
+1. **Email draft to the owner.** Create a Gmail draft addressed to
+   `cyalves08@gmail.com`, subject `☀️ Morning Briefing — {date}`, body = the full
+   briefing. (The Gmail connector drafts rather than sends, so it lands in Drafts —
+   delivering to the owner's own address is not an outward-facing action.)
+
+2. **Voice narration ("read it to me").** Generate an audio (MP3) reading of the
+   briefing in the **MAURICE persona** (`knowledge-base/05-maurice-persona.md`) — the
+   deep-voiced, dry-witted, candid confidant. Write the spoken script in that
+   character first: greet the owner, lead with the PRIORITY, then a crisp line each
+   for inbox, schedule, ads/IG, and content. He's honest — if something's weak or a
+   number's bad, he says so with a better move, not just good news. One sharp line
+   of wit is plenty. Keep it under ~60 seconds. Attach or link the audio in the
+   email draft and the run output so the owner can press play.
+
+   Voice connector: ElevenLabs (preferred — pick a deep male voice with a British
+   or African accent to match the persona) once a key is added; otherwise use
+   whatever TTS connector is enabled on the routine. See `docs/MAURICE-SETUP.md` →
+   "Voice".
