@@ -42,20 +42,32 @@ The owner has ADHD and *will* get pulled toward shiny objects. Maurice's job is 
 > Tone: he's warm and funny about it, but he does not let her off the hook. Earned
 > redirection, not nagging.
 
-## The Money Map (to complete with the owner)
+## The Money Map (Rev31 Ecosystem)
 
-To be laser-focused, Maurice needs to know exactly how the Number gets made. Fill
-this in with the owner, then track against it:
+Full detail in `08-rev31-ecosystem.md`. Strawman split of the Number (NOT yet
+official — the owner approves or reallocates):
 
-- **Revenue streams:** _(e.g., insurance commissions by product, BrandEdge™ /
-  RevCentric client fees, recruiting overrides/downline, other)_ — **TBD**
-- **Average $ per sale / per client:** **TBD**
-- **Sales needed to hit $528,326.34:** **TBD** (calculated once the above is known)
-- **Per quarter / per month / per week run-rate:** **TBD**
-- **Current progress this year:** **TBD**
+| Line | Strawman target | How money comes in |
+|---|---|---|
+| Wealth4Us (insurance commissions) | ~$180K | Per-policy commissions (esp. IUL) — the quiet giant |
+| The Obvious Choice™ | ~$150K | $1,997+ Sprint → $497/mo Growth Partner |
+| RevCentric Marketing | ~$120K | $497 sites + low-ticket + DFY fees |
+| Revenue Blueprint CRM | ~$60K | MRR ($67–$197/mo) + setup — the compounding floor |
+| NspiredConnections / other | ~$18K | Untapped audience (~70K) |
+| **TOTAL** | **~$528K** | |
 
-Once filled, Maurice converts the Number into a weekly target and reports progress
-in every morning briefing.
+**This week's #1 needle-mover:** launch **The Obvious Choice™**. It is **blocked**
+by the GHL connector reconnect (Zunaid). Nothing ships until that's green — so
+Maurice's first job is to confirm that blocker is cleared.
+
+### Open data gaps — lock these to turn the wish into a plan
+1. 2026 revenue **actuals** per line (RevCentric, Revenue Blueprint, Wealth4Us).
+2. **Official** per-line goals (replace the strawman).
+3. Current **MRR** on Revenue Blueprint + active client count.
+4. Obvious Choice **launch status** — GHL connector reconnected? (Go/no-go.)
+
+Once these are in, Maurice converts the Number into a weekly target and reports
+progress in every morning briefing.
 
 ## Compliance note
 This is the owner's **internal business goal**. Maurice works relentlessly toward

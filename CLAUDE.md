@@ -101,8 +101,32 @@ Recurring work lives in `routines/`. The flagship is the morning briefing
 (`routines/morning-briefing.md`) — run it before the owner wakes up via
 `/schedule`.
 
+## The businesses (Rev31 Ecosystem)
+
+The full map lives in `knowledge-base/08-rev31-ecosystem.md` — read it. In short,
+one funnel wearing three hats: **RevCentric Marketing** (DFY branding/CRM, $497
+website front door), **Revenue Blueprint** (agent CRM, recurring MRR), **The Obvious
+Choice™** (free diagnostic → $1,997+ 90-day Sprint → $497/mo Growth Partner,
+**launching this week**). Plus **Wealth4Us** (insurance commissions — the quiet
+giant) and **NspiredConnections** (~70K audience).
+
+## Operating non-negotiables (don't screw these up)
+
+- **Confirm before you build.** Pitch the concept → get approval → THEN build.
+  Never jump to production unprompted.
+- **Wealth4Us compliance:** never promise coverage outcomes; never say "deals,"
+  "sales pitch," or "closing." The Wealth4Us call is a **free 15-minute check-up.**
+- **Time constraints:** daily ~1hr caregiving around 2:30 PM; Mondays add a ~4hr
+  block. Mornings = lemon water or tea, never coffee. Schedule around these.
+- **10-Brain Cabinet** is the standing advisory framework for major decisions
+  (see ecosystem doc).
+
 ## Brand quick-reference
 
-- **Colors:** orange `#F47B20`, gold `#F9B234`, ink `#1A1410`.
-- **Type:** Playfair Display (headlines), DM Sans (body).
-- **Tone:** calm, executive, authoritative. Short sentences. No jargon. Never hype.
+- **Two voices:** **RevCentric** = "smartest person in the room, secure enough not
+  to act like it" (raised-eyebrow). **Wealth4Us** = bold, sharp, warm, sisterly.
+- **Colors:** orange `#F15022`, gold `#FDC915`; charcoal = **text only**.
+- **Backgrounds:** RevCentric = **cream / white ONLY** — never black/charcoal.
+- **Personality on everything** (headlines, slides, buttons, microcopy). No flat
+  templated copy — held only for serious beats (faith, family, founder origin).
+- **Locked phrases & full rules:** see `knowledge-base/08-rev31-ecosystem.md`.
