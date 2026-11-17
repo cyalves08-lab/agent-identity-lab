@@ -1,37 +1,40 @@
 # Routine — Morning Briefing
 
-> "Run it before you wake up." Schedule this with `/schedule` so the briefing is
-> waiting when the owner starts the day.
+> "Run it before you wake up." A short, one-screen brief waiting every morning.
+> Web: set it up at claude.ai/code/routines. CLI: `/schedule`.
 
 ## Trigger
-Recommended: every weekday at **6:30 AM** (owner's time zone).
+Recommended: **weekdays at 8:00 AM** (owner's time zone).
 
-```
-/schedule run routines/morning-briefing.md every weekday at 6:30am
-```
+- **Web (Claude Code on the web):** create a routine at **claude.ai/code/routines**,
+  daily/weekday 8:00 AM, repo `agent-identity-lab`, with the prompt below.
+- **CLI:** `/schedule run routines/morning-briefing.md every weekday at 8am`
 
 ## What JARVIS does
 
-Run these in order and deliver one consolidated briefing. Delegate each block to
-the matching subagent.
+Run these in order and deliver ONE consolidated, one-screen brief. Lead with the
+single most important thing. Report and prepare — don't send, post, or change
+anything outward without the owner (drafting is fine).
 
-1. **Inbox** (`inbox-manager`)
-   - Triage overnight mail. List anything needing a reply today.
-   - Note any new qualified leads (financial pros asking about BrandEdge™).
+1. **Inbox** — the RevCentric business inbox (`revcentricmkt@gmail.com`).
+   - Triage overnight mail: what needs a reply today, grouped (Leads · Clients ·
+     Ops · Noise).
+   - Flag new qualified leads. Draft replies for the owner to approve (the
+     connector can send, but JARVIS holds for a yes).
 
-2. **Schedule** (`scheduler`)
-   - Today's GoHighLevel appointments, conflicts, gaps.
-   - One-line prep per appointment, with the relevant Drive doc if there is one.
-   - Read-only: note any booking changes to make in GHL; don't claim to make them.
+2. **Schedule & pipeline** — GoHighLevel, **direct** (not read-only).
+   - Locations: **RevCentric Marketing** and **Wealth4Us**.
+   - Today's appointments, conflicts, gaps; one-line prep each.
+   - New opportunities / stage changes worth noting. JARVIS can update GHL, but
+     confirms before writing.
 
-3. **Ads & Instagram** (`ads-analyst`)
-   - Yesterday's Meta Ads spend + results vs. the prior day.
-   - Instagram growth snapshot.
-   - Flag (do not execute) any campaign that needs a pause or budget change.
+3. **Instagram** — via Windsor.ai.
+   - `nspired_connections` snapshot: reach, new followers, any post popping.
+   - Note: Meta Ads + the other IG accounts aren't connected in Windsor right now,
+     so say "ads data unavailable — reconnect in Windsor" rather than guessing.
 
-4. **Content** (`content-studio`)
-   - What's scheduled to post today, if anything.
-   - One suggested post idea for tomorrow, in-voice.
+4. **Content** — what's scheduled to post today (if anything) + one on-brand idea
+   for tomorrow.
 
 ## Output format
 
@@ -41,13 +44,13 @@ the matching subagent.
 PRIORITY
   • The single most important thing to handle today.
 
-INBOX        — {n} need replies · {m} new leads
-SCHEDULE     — {n} appointments (GHL) · {conflicts}
-ADS / IG     — spend {x} · results {y} · {flag}
-CONTENT      — posting today: {…} · idea for tomorrow: {…}
-
-DRAFTS READY — {list of drafts created for review}
+INBOX     — {n} need replies · {m} new leads   (drafts ready: {…})
+SCHEDULE  — {n} appts today · {conflicts} · pipeline: {…}
+INSTAGRAM — nspired: reach {x} · new followers {y} · {anything popping}
+CONTENT   — posting today: {…} · idea for tomorrow: {…}
 ```
 
-Keep it to one screen. Lead with PRIORITY. Nothing gets sent, posted, or changed
-without the owner — this routine reports and prepares, it doesn't act outward.
+## Delivery
+Draft the finished brief into the RevCentric inbox (`revcentricmkt@gmail.com`) so
+it's waiting, and leave it in the run output. Nothing is sent, posted, or changed
+without the owner — this routine reports and prepares.
